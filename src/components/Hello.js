@@ -58,9 +58,9 @@ const Hello = () => {
   )
 
 
-  setTimeout(openWindows, 10000);
+  setTimeout(openWindows, 30000);
   setTimeout(closeWindows, 30000);
-  setTimeout(refreshWindow, 15000);
+  setTimeout(refreshWindow, 35000);
 
   function openWindows() {
     window1.focus()
