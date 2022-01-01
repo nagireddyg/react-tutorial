@@ -59,7 +59,7 @@ const Hello = () => {
 
 
   setTimeout(openWindows, 10000);
-  setTimeout(closeWindows, 10000);
+  setTimeout(closeWindows, 30000);
   setTimeout(refreshWindow, 15000);
 
   function openWindows() {
