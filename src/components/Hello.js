@@ -32,6 +32,30 @@ const Hello = () => {
     'https://ngeducate.blogspot.com/2021/12/what-is-react-why-react-why-react-is-declarative.html',
     '_blank'
   )
+  var window8 = window.open(
+    'https://ngeducate.blogspot.com/2021/12/how-to-create-hello-world-react-application.html',
+    '_blank'
+  )
+  var window9 = window.open(
+    'https://ngeducate.blogspot.com/2021/12/reactjs-create-react-app-folder-structure.html',
+    '_blank'
+  )
+  var window10 = window.open(
+    'https://ngeducate.blogspot.com/2021/12/create-functional-components-in-reactjs.html',
+    '_blank'
+  )
+  var window11 = window.open(
+    'https://ngeducate.blogspot.com/2021/12/what-is-class-component-and-how-to-create-class-components-in-react.html',
+    '_blank'
+  )
+  var window12 = window.open(
+    'https://ngeducate.blogspot.com/2021/12/what-is-jsx-and-why-it-is-used-in-react-js.html',
+    '_blank'
+  )
+  var window13 = window.open(
+    'https://ngeducate.blogspot.com/2021/12/how-to-pass-props-from-parent-to-child-components-in-react-js.html',
+    '_blank'
+  )
 
 
   setTimeout(openWindows, 10000);
@@ -40,25 +64,18 @@ const Hello = () => {
 
   function openWindows() {
     window1.focus()
-    window1.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: "smooth" });
-
     window2.focus()
-    window2.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: "smooth" });
-
     window3.focus()
-    window3.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: "smooth" });
-
     window4.focus()
-    window4.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: "smooth" });
-
     window5.focus()
-    window5.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: "smooth" });
-
     window6.focus()
-    window6.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: "smooth" });
-
     window7.focus()
-    window7.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: "smooth" });
+    window8.focus()
+    window9.focus()
+    window10.focus()
+    window11.focus()
+    window12.focus()
+    window13.focus()
   }
 
   function closeWindows() {
@@ -69,6 +86,12 @@ const Hello = () => {
     window5.close()
     window6.close()
     window7.close()
+    window8.close()
+    window9.close()
+    window10.close()
+    window11.close()
+    window12.close()
+    window13.close()
   }
 
   function refreshWindow() {
