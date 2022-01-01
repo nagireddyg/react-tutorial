@@ -1,4 +1,5 @@
 {
+  "homepage": "https://nagireddyg.github.io/react-tutorial",
   "name": "hello-world",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,8 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,5 +45,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jasmine": "^4.1.3",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-sonarjs": "^0.11.0",
+    "eslint-plugin-switch-case": "^1.1.2",
+    "gh-pages": "^3.2.3"
   }
 }
